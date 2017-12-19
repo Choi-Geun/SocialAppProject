@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1079606918296",
+    "firebase_url": "https://fapp-fcddf.firebaseio.com",
+    "project_id": "fapp-fcddf",
+    "storage_bucket": "fapp-fcddf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1079606918296:android:6f05e58ba3918858",
+        "android_client_info": {
+          "package_name": "com.example.my.sapproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1079606918296-j20luoq141qfku9bv5tileagu2j9ones.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.my.sapproject",
+            "certificate_hash": "c6326ee2ef8264aaa0321dd5f38c98bfc7b5f1b9"
+          }
+        },
+        {
+          "client_id": "1079606918296-bakji3ki4l86r2vpnkssh26aft3nuoa9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6SbjFkKL8kcgWLv_5qbdZsE30okE564k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1079606918296-bakji3ki4l86r2vpnkssh26aft3nuoa9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

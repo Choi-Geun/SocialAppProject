@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/addphoto"
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="22dp"
+        app:srcCompat="@drawable/default_photo" />
+
+    <EditText
+        android:id="@+id/addphototext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="26dp"
+        android:layout_above="@+id/addphoto_confirm"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/addphoto_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:text="확인"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="60dp" />
+
+    <Button
+        android:id="@+id/addphoto_cancle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="66dp"
+        android:text="취소"
+        android:layout_alignBaseline="@+id/addphoto_confirm"
+        android:layout_alignBottom="@+id/addphoto_confirm"
+        android:layout_toEndOf="@+id/addphoto_confirm" />
+</RelativeLayout>
